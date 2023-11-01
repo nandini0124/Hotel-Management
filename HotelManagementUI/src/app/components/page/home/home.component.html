@@ -30,35 +30,39 @@
       <div class="aside maxheight">
         <!-- box begin -->
         <div class="box maxheight">
-          <div class="inner">
+          <div class="outer">
             <h3>Reservation:</h3>
             <form action="#" id="reservation-form">
               <fieldset>
               <div class="field">
-                <label>Check In:</label>
-                <select class="select1">
-                  <option>30</option>
-				  <option>30</option>
-				  <option>30</option>
-				  <option>30</option>
-                </select>
-                <select class="select2">
-                  <option>April 2009</option>
-                </select>
+                <label>Check In: &nbsp;&nbsp;<input type="date" id="checkIn" name="checkIn"></label>
+                <label>Check Out: <input type="date" id="checkOut" name="checkOut"></label>
               </div>
-              <div class="field">
-                <label>Check Out:</label>
-                <select class="select1">
-                  <option>01</option>
-                </select>
-                <select class="select2">
-                  <option>May 2009</option>
-                </select>
-              </div>
-              <div class="field"> Persons: &nbsp;
-                <input type="text" value="1"/>
-&nbsp; &nbsp; &nbsp; &nbsp; Rooms:&nbsp;
-                <input type="text" value="1"/>
+              
+              <div class="field"> Persons: &nbsp;&nbsp;&nbsp;
+                <select id="persons">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+&nbsp; &nbsp; &nbsp; &nbsp; Rooms:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select id="rooms">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
               </div>
               <div class="button"><span><span><a href="#">Check Availability</a></span></span></div>
               </fieldset>
@@ -70,7 +74,7 @@
       <div class="content">
         <div class="indent">
           <h2>FiveStar is happy to welcome you!</h2>
-          <img class="img-indent png" alt="" src="src\assets\images\1page-img1.png" />
+          <img class="img-indent png" alt="" src="../../../assets/images/1page-img1.png" />
           <p class="alt-top">Come alone or bring your family with you, stay here for a night or for weeks, stay here while on business trip or at some kind of conference - either way our hotel is the best possible variant.</p>
           Feel free to contact us anytime in case you have any questions or concerns.
           <div class="clear"></div>
